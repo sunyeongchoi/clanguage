@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C8016C1F27DCF93200EFC491 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C8016C1E27DCF93200EFC491 /* main.c */; };
 		C8016C2427DCF94A00EFC491 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C8016C1227DCEC0400EFC491 /* LinkedList.c */; };
+		C801CE6C27E21232006ACD00 /* DoubleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C801CE6B27E21232006ACD00 /* DoubleLinkedList.c */; };
 		C83913AA27D8AA610063A987 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C83913A927D8AA610063A987 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		C8016C1227DCEC0400EFC491 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		C8016C1C27DCF93200EFC491 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8016C1E27DCF93200EFC491 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C801CE6A27E21232006ACD00 /* DoubleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleLinkedList.h; sourceTree = "<group>"; };
+		C801CE6B27E21232006ACD00 /* DoubleLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DoubleLinkedList.c; sourceTree = "<group>"; };
 		C83913A627D8AA610063A987 /* clanguage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = clanguage; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83913A927D8AA610063A987 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +69,8 @@
 				C8016C1127DCEBED00EFC491 /* LinkedList.h */,
 				C8016C1227DCEC0400EFC491 /* LinkedList.c */,
 				C8016C1E27DCF93200EFC491 /* main.c */,
+				C801CE6A27E21232006ACD00 /* DoubleLinkedList.h */,
+				C801CE6B27E21232006ACD00 /* DoubleLinkedList.c */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C801CE6C27E21232006ACD00 /* DoubleLinkedList.c in Sources */,
 				C8016C2427DCF94A00EFC491 /* LinkedList.c in Sources */,
 				C8016C1F27DCF93200EFC491 /* main.c in Sources */,
 			);
